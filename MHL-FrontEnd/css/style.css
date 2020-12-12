@@ -1,0 +1,29 @@
+#capa {
+  background-size: cover;
+  background-image: url(../images/familia-feliz.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  border: solid black 5px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  height: 1300px;
+  justify-content: center;
+  opacity: 0.9;
+  position: relative;
+}
+
+#capa p {
+  color: blue;
+  font-size: xx-large;
+}
+
+@media (min-width: 768px) <style> #capa {
+  height: 500px;
+  font-size: 52px;
+}
+
+@media (min-width: 576px) <style> #capa {
+  height: 400px;
+  font-size: 48px;
+}
