@@ -14,7 +14,7 @@ body {
   font-size: 18px;
   height: 300px;
   justify-content: flex-end;
-  opacity: 0.9;
+
   /* position: relative; */
 }
 
@@ -86,6 +86,7 @@ nav {
   align-content: space-around;
   border: 5px solid orangered;
   color: white;
+  margin-bottom: 1px;
 }
 
 nav img {
@@ -112,7 +113,7 @@ nav a:hover {
 }
 .equipe div {
   border: solid 2px red;
-  width: 15%;
+  width: 12%;
 }
 
 footer {
