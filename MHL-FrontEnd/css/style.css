@@ -11,16 +11,31 @@ body {
   border: solid black 5px;
   display: flex;
   flex-direction: column;
-  height: 300px;
   font-size: 18px;
+  height: 300px;
   justify-content: flex-end;
   opacity: 0.9;
   /* position: relative; */
 }
 
+#capa img {
+  /* superior | direita | inferior | esquerda */
+  align-self: flex-end;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0px 10% 5% 0;
+  width: 70%;
+}
+
 #capa h1 {
   color: blue;
   text-align: end;
+}
+
+.equipe img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
 }
 
 @media (min-width: 576px) {
@@ -29,6 +44,11 @@ body {
   }
   #capa h1 {
     font-size: 36px;
+  }
+
+  .equipe img {
+    height: 100px;
+    width: 100px;
   }
 }
 
@@ -39,14 +59,25 @@ body {
   #capa h1 {
     font-size: 72px;
   }
+
+  .equipe img {
+    height: 150px;
+    width: 150px;
+  }
 }
 
 @media (min-width: 992px) {
   #capa {
     height: 600px;
   }
+
   #capa h1 {
     font-size: 90px;
+  }
+
+  .equipe img {
+    height: 180px;
+    width: 180px;
   }
 }
 
@@ -56,6 +87,11 @@ body {
   }
   #capa h1 {
     font-size: 120px;
+  }
+
+  .equipe img {
+    height: 200px;
+    width: 200px;
   }
 }
 
@@ -91,11 +127,6 @@ nav a:hover {
   padding-top: 5%;
   padding-bottom: 5%;
   flex-wrap: wrap;
-}
-.equipe img {
-  height: 100px;
-  width: 100px;
-  border-radius: 50px;
 }
 
 footer {
