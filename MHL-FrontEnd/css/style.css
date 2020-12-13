@@ -4,26 +4,52 @@
   background-position: center center;
   background-repeat: no-repeat;
   border: solid black 5px;
-  color: white;
   display: flex;
   flex-direction: column;
-  height: 1300px;
-  justify-content: center;
+  height: 300px;
+  font-size: 18px;
+  justify-content: flex-end;
   opacity: 0.9;
   position: relative;
 }
 
-#capa p {
+#capa h1 {
   color: blue;
-  font-size: xx-large;
+  text-align: end;
 }
 
-@media (min-width: 768px) <style> #capa {
-  height: 500px;
-  font-size: 52px;
+@media (min-width: 576px) {
+  #capa {
+    height: 400px;
+  }
+  #capa h1 {
+    font-size: 36px;
+  }
 }
 
-@media (min-width: 576px) <style> #capa {
-  height: 400px;
-  font-size: 48px;
+@media (min-width: 768px) {
+  #capa {
+    height: 500px;
+  }
+  #capa h1 {
+    font-size: 72px;
+  }
+}
+
+@media (min-width: 992px) {
+  #capa {
+    height: 600px;
+  }
+  #capa h1 {
+    font-size: 90px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #capa {
+    height: 700px;
+  }
+  #capa h1 {
+    font-size: 120px;
+  }
 }
