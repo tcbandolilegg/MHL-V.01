@@ -80,23 +80,38 @@ nav {
   justify-content: space-around;
   position: fixed;
   width: 100%;
-  background-color: blue;
+  background-color: #03145f;
   height: 70px;
   align-items: center;
   align-content: space-around;
   border: 5px solid orangered;
-  color: white;
+
   margin-bottom: 1px;
 }
 
+nav a {
+  color: #1bb5da;
+  text-decoration: none;
+}
+
+nav button {
+  background-color: #1bb5da;
+  border-radius: 5px;
+}
+
+nav input {
+  border-radius: 5px;
+  border: solid 2px #1bb5da;
+}
+
 nav img {
-  height: 80%;
+  height: 45px;
+  /* height: 10%; */
   /* width: 50px; */
 }
 
 nav a:hover {
-  color: blue;
-  text-decoration: none;
+  color: white;
   justify-content: space-between;
 }
 
@@ -105,8 +120,8 @@ nav a:hover {
   align-content: space-around;
   justify-content: space-around;
   align-items: center;
-  padding-top: 5%;
-  padding-bottom: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
   flex-wrap: wrap;
   text-align: center;
   border: solid 2px blueviolet;
@@ -114,6 +129,70 @@ nav a:hover {
 .equipe div {
   border: solid 2px red;
   width: 12%;
+}
+
+.quemSomos {
+  align-content: space-around;
+  align-items: center;
+  border: solid 5px yellow;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  text-align: center;
+  height: 700px;
+}
+
+#quemSomosEsquerda {
+  border: solid 2px yellowgreen;
+  width: 45%;
+  font-size: x-large;
+  justify-content: space-around;
+}
+
+#formEbook {
+  border: solid 2px orange;
+  width: 45%;
+}
+
+#textoQuemSomos {
+  border: solid 2px #1bb5da;
+  text-align: center;
+  line-height: 150%;
+  align-content: center;
+  justify-items: center;
+  justify-content: center;
+  padding: 5%;
+  height: 70%;
+}
+
+#botoesQuemSomosEsquerda {
+  border: solid 2px #c43f9c;
+  /* text-align: center; */
+  justify-content: space-between;
+  justify-self: center;
+  justify-items: center;
+  flex-wrap: wrap;
+  padding: 2%;
+  height: 10%;
+}
+
+#quemSomosEsquerda button {
+  background-color: #03145f;
+  color: white;
+  border-radius: 10px;
+  border: solid 1px white;
+  font-size: 85%;
+  width: 40%;
+  height: 70%;
+}
+
+.ladoALado {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 90%;
 }
 
 footer {

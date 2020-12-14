@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -11,47 +11,63 @@
   </head>
   <body>
     <nav id="menu">
-      <a href="#menu">
+      <a id="logo" href="#capa">
         <img
           src="./MHL-FrontEnd/images/logos/MyHealthLIb_pequena_transparente.png"
           alt="MyhealthLIB, a suade na palma das mãos"
         />
       </a>
-      <a href="#queSomos">Quem somos</a>
+      <a href="#quemSomos">Quem somos</a>
       <a href="#cultura">Cultura</a>
       <a href="#posicionamento">Posicionamento</a>
       <a href="#parceria">Parcerias</a>
-      <a href="#equipe">Equipe</a>
+      <a href="#menbrosEquipe">Equipe</a>
       <a href="#blog">Blog</a>
       <a href="#faleConosco">Fale conosco</a>
-      <input type="text" />
+      <input type="text" placeholder="Digite sua pesquisa aqui" />
       <button id="login">Login</button>
     </nav>
 
     <header id="capa">
       <img
         src="./MHL-FrontEnd/images/A SAÚDE NA PALMA DE SUAS MÃOS!.png"
-        alt=""
+        alt="A saúde na palma da mão"
       />
       <!-- <h1>A saúde na palma das MÃOS!</h1> -->
     </header>
 
-    <section>
-      <div>
-        <p>texto</p>
-        <button>fala da fundadora</button>
-        <button>Nossa historia</button>
-      </div>
-      <div>
-        <p>form e-book</p>
+    <section class="quemSomos">
+      <div class="ladoALado">
+        <div id="quemSomosEsquerda">
+          <div id="textoQuemSomos">
+            <p>
+              Uma plataforma, e futuramente um app, que permite armazenar
+              históricos médicos, exames, registros de doenças hereditárias,
+              genéticas ou congênitas, alergias medicamentosas ou alimentares,
+              marcações de consultas e controle de vacinas, para serem
+              administrados e acompanhados de forma simples. Sendo a melhor
+              maneira de monitorar todos os eventos relacionados a saúde.
+            </p>
+          </div>
+          <div id="botoesQuemSomosEsquerda">
+            <button class="buttonQuemSomos">fala da fundadora</button>
+            <button class="buttonQuemSomos">Nossa historia</button>
+          </div>
+        </div>
+
+        <div id="formEbook">
+          <p>form e-book</p>
+        </div>
       </div>
     </section>
     <section></section>
-    <section></section>
-    <section></section>
-    <section></section>
-    <section></section>
-    <section class="equipe">
+    <section id="blog">
+      <a href="./MHL-FrontEnd/pages/emConstrução.html"></a>
+    </section>
+    <section id="cultura"></section>
+    <section id="posicionamento"></section>
+    <section id="parcerias"></section>
+    <section id="menbrosEquipe" class="equipe">
       <div>
         <img src="./MHL-FrontEnd/images/equipe/thereza.png" alt="Thereza" />
         <h4>Thereza Bandoli</h4>
@@ -88,7 +104,7 @@
         <h5>COO</h5>
       </div>
     </section>
-    <footer>
+    <footer id="faleConosco">
       <div class="contato"></div>
     </footer>
   </body>
