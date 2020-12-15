@@ -130,6 +130,41 @@ nav a:hover {
   border: solid 2px red;
   width: 12%;
 }
+.tiposDePlanos {
+  display: flex;
+  align-content: space-around;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  flex-wrap: wrap;
+  text-align: center;
+  border: solid 2px brown;
+}
+.tiposDePlanos div {
+  border: solid 2px greenyellow;
+  width: 20%;
+}
+.logosParceiros {
+  display: flex;
+  align-content: space-around;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  flex-wrap: wrap;
+  text-align: center;
+  border: solid 2px aquamarine;
+}
+.logosParceiros div {
+  border: solid 2px burlywood;
+  width: 20%;
+}
+
+.logosParceiros img {
+  height: 60%;
+  width: 60%;
+}
 
 .quemSomos {
   align-content: space-around;
@@ -169,6 +204,7 @@ nav a:hover {
 
 #botoesQuemSomosEsquerda {
   border: solid 2px #c43f9c;
+  display: flex;
   /* text-align: center; */
   justify-content: space-between;
   justify-self: center;
