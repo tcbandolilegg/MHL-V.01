@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./MHL-FrontEnd/css/reset.css" />
-    <link rel="stylesheet" href="./MHL-FrontEnd/css/style.css" />
+    <link rel="stylesheet" href="/MHL-FrontEnd/css/reset.css" />
+    <link rel="stylesheet" href="/MHL-FrontEnd/css/style.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
 
     <title>My Health LIB</title>
@@ -56,7 +56,31 @@
         </div>
 
         <div id="formEbook">
-          <p>form e-book</p>
+          <div class="imgTablet">
+            <div class="fundoTablet">
+              <div class="camposDoForm">
+                <form class="formularioEBook" method="get" action="">
+                  <input
+                    type="text"
+                    name="nome"
+                    placeholder="digite seu Nome aqui"
+                  />
+                  <input
+                    type="e-mail"
+                    name="email"
+                    placeholder="Digite seu e-mail"
+                  />
+                  <br />
+                  <input
+                    class="buttonForm"
+                    type="submit"
+                    name="enviar"
+                    value="Enviar"
+                  />
+                </form>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -64,16 +88,89 @@
     <section id="blog">
       <a href="./MHL-FrontEnd/pages/emConstrução.html"></a>
     </section>
-    <section id="cultura"></section>
-    <section id="posicionamento"></section>
-    <!-- <section id="planos" class="tiposDePlanos"> -->
+    <section id="cultura">
+      <div class="iconesCultura">
+        <div class="itensCultura" id="focaNasPessoas">
+          <img
+            src="/MHL-FrontEnd/images/navegacao/icones/FocaNasPessoas.png"
+            alt=""
+          />
+        </div>
+
+        <div class="itensCultura" id="buscaPelaExelencia">
+          <img
+            src="/MHL-FrontEnd/images/navegacao/icones/BuscaPelaExelencia.png"
+            alt=""
+          />
+        </div>
+
+        <div class="itensCultura" id="sustentabilidade">
+          <img
+            src="/MHL-FrontEnd/images/navegacao/icones/Sustentabilidade.png"
+            alt=""
+          />
+        </div>
+        <div class="itensCultura" di="conversacao">
+          <img
+            src="/MHL-FrontEnd/images/navegacao/icones/Conversação.png"
+            alt=""
+          />
+        </div>
+
+        <div class="itensCultura" id="trabalhoEmEquipe">
+          <img
+            src="/MHL-FrontEnd/images/navegacao/icones/TrabalhoEmEquipe.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+
+    <section id="comoSurgiu">
+      A plataforma se originou a partir da ideia de manter todo o histórico
+      médico em um único lugar. Tivemos como base dois graves problemas familiar
+      que nos fez perceber a necessidade e importância de ter todas as
+      informações em mãos de forma ágil e rápida. Vimos que a quantidade de
+      papeis, mesmo organizados em pastas, crescia de forma exagerada o que
+      dificultava a busca por informações. Quanto maior o problema de saúde mais
+      exames clínicos, mais exames de imagem, mais consultas e por fim mais
+      papeis a serem guardados. Nós temos a solução..
+    </section>
+    <section id="posicionamento">
+      <p>Posicionamento</p>
+      <p>
+        91,4% da população* se preocupa com a saúde. (*Fonte: www.acritica.net
+        em 16/09/2020.)
+      </p>
+      Muitos desejam ou precisam guardar seus registros médicos mas não o fazem
+      devido ao grande volume de papeis. Muita coisa acaba por se perder. Mas
+      como tê-los de forma organizada, de fácil acesso e sem a utilização de
+      espaço físico?
+      <p>Nosso aplicativo oferecerá a solução.</p>
+      <p>
+        Diferente dos concorrentes, o MyHealthLib permite não só a inclusão dos
+        registros pessoais, mas também de todos por quem para responsável. sem a
+        necessidade de instalação de outras cópias. Oferece a entrada de dados
+        tanto de forma automática como manual. Possui um módulo especial sobre
+        histórico familiar que permite avaliar risco de possíveis patologias
+      </p>
+    </section>
     <section class="tiposDePlanos">
       <div class="planos">
         <div>
           <h2>DOPAMINA</h2>
           <h5>FREE</h5>
         </div>
-        <div class="selecaoPeriodo">Plano básico gratuito</div>
+        <div class="selecaoPeriodo">
+          <form method="post">
+            <select name="periodoPagamento">
+              <option value="mensal">Plano básico gratuito</option>
+              <!-- <option value="trimestral">Trimestral</option>
+              <option value="semestral">Semestral</option>
+              <option value="anual">Anual</option> -->
+            </select>
+          </form>
+        </div>
         <p>Este plano contém</p>
         <div class="beneficios">
           <div>Acesso a lista de proficionas e instituições</div>
@@ -172,62 +269,82 @@
     <section id="parcerias" class="logosParceiros">
       <div>
         <img
-          src="./MHL-FrontEnd/images/logos/b2mamy_Laranja.png"
-          alt="B2MAMY"
+          src="/MHL-FrontEnd/images/parceiros/pb/DraTM.png"
+          alt="DOUTORA TÂNIA"
         />
+      </div>
+
+      <div>
+        <img src="/MHL-FrontEnd/images/parceiros/pb/VC.png" alt="VÔ CONTIGO" />
       </div>
       <div>
         <img
-          src="./MHL-FrontEnd/images/logos/Primeiro_alecrin_Color.png"
+          src="/MHL-FrontEnd/images/parceiros/pb/MPA.png"
           alt="MEU PRIMEIRO ALECRIM"
         />
       </div>
       <div>
         <img
-          src="./MHL-FrontEnd/images/logos/210x210.png"
+          src="/MHL-FrontEnd/images/parceiros/pb/ILZ.png"
+          alt="INSTITUI LIXO ZERO"
+        />
+      </div>
+
+      <div>
+        <img
+          src="/MHL-FrontEnd/images/parceiros/pb/AI.png"
           alt="ASCENDER IDEIAS"
         />
       </div>
-      <div>
-        <img
-          src="./MHL-FrontEnd/images/logos/vo_contigo.png"
-          alt="VÔ CONTIGO"
-        />
-      </div>
+    </section>
+    <section class="cadastroNovosParceiros">
+      <p>Quer ser nosso parceiro também?</p>
+      <form method="get" action="">
+        <input type="text" name="nome" placeholder="Nome da iniciativa" />
+        <input type="e-mail" name="email" placeholder="e-mail" />
+        <input type="submit" name="enviar" value="Enviar" />
+      </form>
+    </section>
+    <section class="aceletedoras">
+      <h1>Aceleradoras</h1>
+      <img
+        src="/MHL-FrontEnd/images/aceleradoras/logo_3548_Logo_aceleradora-5.png"
+        alt=""
+      />
     </section>
     <section id="menbrosEquipe" class="equipe">
       <div>
-        <img src="./MHL-FrontEnd/images/equipe/thereza.png" alt="Thereza" />
+        <img src="/MHL-FrontEnd/images/equipe/thereza.png" alt="Thereza" />
         <h4>Thereza Bandoli</h4>
         <h5>Founder e CEO</h5>
       </div>
       <div>
-        <img src="./MHL-FrontEnd/images/equipe/andersom.png" alt="Anderson" />
+        <img src="/MHL-FrontEnd/images/equipe/andersom.png" alt="Anderson" />
         <h4>Andersom Pacheco</h4>
         <h5>CTO</h5>
       </div>
       <div>
-        <img src="./MHL-FrontEnd/images/equipe/catia.png" alt="Catia" />
+        <img src="/MHL-FrontEnd/images/equipe/catia.png" alt="Catia" />
         <h4>Catia Hübnner</h4>
         <h5>CCO</h5>
       </div>
       <div>
-        <img src="./MHL-FrontEnd/images/equipe/carol.png" alt="Carolina" />
+        <img src="/MHL-FrontEnd/images/equipe/carol.png" alt="Carolina" />
         <h4>Carol Bandoli</h4>
         <h5>UX/UI</h5>
       </div>
       <div>
-        <img src="./MHL-FrontEnd/images/equipe/desconhecido.png" alt="Medico" />
+        <img src="/MHL-FrontEnd/images/equipe/desconhecido.png" alt="Medico" />
         <h4>Falta você</h4>
         <h5>CKO</h5>
       </div>
       <div>
-        <img src="./MHL-FrontEnd/images/equipe/desconhecido.png" alt="Medico" />
+        <img src="/MHL-FrontEnd/images/equipe/desconhecido.png" alt="Medico" />
         <h4>Falta você</h4>
         <h5>CFO</h5>
       </div>
       <div>
-        <img src="./MHL-FrontEnd/images/equipe/desconhecido.png" alt="Medico" />
+        <img src="/MHL-FrontEnd/images/equipe/desconhecido.png" alt="Medico" />
         <h4>Falta você</h4>
         <h5>COO</h5>
       </div>

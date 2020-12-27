@@ -115,6 +115,28 @@ nav a:hover {
   justify-content: space-between;
 }
 
+.iconesCultura {
+  display: flex;
+  border: solid 2px cadetblue;
+  justify-content: space-around;
+}
+
+.logosParceiros {
+  background-color: #d1e5ff;
+}
+/* #trabalhoEmEquipe:hover { */
+.iconesCultura {
+  /* background-size: cover;
+  background-image: url(/MHL-FrontEnd/images/navegacao/fundos/fundoFocoNasPessoas.jpg);
+  background-position: center center;
+  background-repeat: no-repeat; */
+}
+
+.itensCultura {
+  display: flex;
+  border: crimson solid 2px;
+}
+
 .equipe {
   display: flex;
   align-content: space-around;
@@ -165,8 +187,11 @@ nav a:hover {
   color: blue;
 }
 
-.selecaoPeriodo option {
+.selecaoPeriodo select {
   font-size: large;
+  color: blue;
+  width: 80%;
+  height: 40px;
 }
 .planos p {
   font-size: small;
@@ -213,18 +238,19 @@ nav a:hover {
 }
 .logosParceiros div {
   border: solid 2px burlywood;
-  width: 20%;
+  width: 15%;
 }
 
 .logosParceiros img {
-  height: 60%;
-  width: 60%;
+  height: 40%;
+  width: 40%;
 }
 
 .quemSomos {
   align-content: space-around;
   align-items: center;
   border: solid 5px yellow;
+  background-color: #d1e5ff;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -241,9 +267,35 @@ nav a:hover {
   justify-content: space-around;
 }
 
+.formularioEBook input {
+  margin: 0;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.formularioEBook {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  padding-left: 5%;
+  padding-top: 5%;
+  /* align-content: flex-start; */
+}
+
+.buttonForm {
+  width: 50%;
+
+  align-content: center;
+  align-self: center;
+}
 #formEbook {
+  display: flex;
   border: solid 2px orange;
   width: 45%;
+  justify-content: right;
+  justify-items: right;
+  flex-direction: row;
+  justify-self: right;
+  /* flex-wrap: wrap; */
 }
 
 #textoQuemSomos {
@@ -260,13 +312,57 @@ nav a:hover {
 #botoesQuemSomosEsquerda {
   border: solid 2px #c43f9c;
   display: flex;
-  /* text-align: center; */
-  justify-content: space-between;
+  text-align: center;
+  justify-content: space-around;
   justify-self: center;
   justify-items: center;
   flex-wrap: wrap;
   padding: 2%;
   height: 10%;
+  align-items: center;
+}
+.camposDoForm {
+  display: flex;
+  flex-direction: row;
+  background-color: darkmagenta;
+  height: 90%;
+  width: 85%;
+  border: solid 2px orange;
+  align-self: center;
+  flex-wrap: wrap;
+}
+.imgTablet {
+  border-radius: 5%;
+  background-color: lightgray;
+  border: solid black 5px;
+  /* margin: top - dir - botton -  esquerda */
+  margin: 5% 5% 5% 5%;
+  display: flex;
+  flex-direction: row;
+  font-size: 18px;
+  width: 50%;
+  height: 80%;
+  padding: 2% 2% 2% 2%;
+  font-size: xx-large;
+  margin-left: auto;
+}
+
+.fundoTablet {
+  background-position: center;
+  border-radius: 5%;
+  background-color: white;
+  border: solid lightgray 5px;
+  /* margin: top - dir - botton -  esquerda */
+  margin: 1% 1% 1% 1%;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+  width: 100%;
+
+  /* padding: 5%; */
+  font-size: xx-large;
 }
 
 #quemSomosEsquerda button {
@@ -297,7 +393,7 @@ nav a:hover {
 
 footer {
   display: flex;
-  background-color: lightcyan;
+  background-color: #d1e5ff;
   color: white;
   height: 200px;
 }
