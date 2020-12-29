@@ -124,6 +124,7 @@ nav a:hover {
 .logosParceiros {
   background-color: #d1e5ff;
 }
+
 /* #trabalhoEmEquipe:hover { */
 .iconesCultura {
   /* background-size: cover;
@@ -241,7 +242,27 @@ nav a:hover {
   width: 15%;
 }
 
+.logosAceleradoras {
+  display: flex;
+  align-content: space-around;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  flex-wrap: wrap;
+  text-align: center;
+  border: solid 2px aquamarine;
+}
+.logosAceleradoras div {
+  border: solid 2px burlywood;
+  width: 15%;
+}
 .logosParceiros img {
+  height: 40%;
+  width: 40%;
+}
+
+.logosAceleradoras img {
   height: 40%;
   width: 40%;
 }
@@ -401,4 +422,39 @@ footer {
 footer img {
   height: 50px;
   width: 50px;
+}
+
+#cultura img:hover {
+  background-size: cover;
+  background-image: url(/MHL-FrontEnd/images/navegacao/fundos/fundoFocoNasPessoas.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.iconesCultura .itensCultura #buscaPelaExelencia:hover {
+  background-size: cover;
+  background-image: url(/MHL-FrontEnd/images/navegacao/fundos/fundoBuscaDaExcelencia.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+#cultura .iconesCultura .itensCultura #sustentabilidade:hover {
+  background-size: cover;
+  background-image: url(/MHL-FrontEnd/images/navegacao/fundos/fundoSustentabilidade.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.itensCultura #conversacao:hover {
+  background-size: cover;
+  background-image: url(/MHL-FrontEnd/images/navegacao/fundos/fundoValorizamosParcerias.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.itensCultura #trabalhoEmEquipe:hover {
+  background-size: cover;
+  background-image: url(/MHL-FrontEnd/images/navegacao/fundos/fundoSomosColaborativos.png);
+  background-position: center center;
+  background-repeat: no-repeat;
 }
