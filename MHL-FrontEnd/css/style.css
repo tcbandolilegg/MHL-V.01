@@ -3,6 +3,22 @@ body {
   margin: 0;
 }
 
+h1 {
+  font-size: xx-large;
+  font-weight: bolder;
+  text-align: center;
+  background-color: #d1e5ff;
+}
+
+.logosAceleradoras {
+  background-color: #d1e5ff;
+}
+.cadastroNovosParceiros {
+  background-color: #d1e5ff;
+}
+.logosParceiros {
+  background-color: #d1e5ff;
+}
 #capa {
   background-size: cover;
   background-image: url(../images/familia-feliz.jpg);
@@ -306,10 +322,11 @@ nav a:hover {
 }
 
 #posicionamento {
-  /* align-items: center; */
+  align-items: center;
   border: solid 5px rgb(33, 38, 83);
-  background-color: white;
+  background-color: #d1e5ff;
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-around;
   padding-top: 1%;
@@ -321,6 +338,16 @@ nav a:hover {
 #posicionamento h1 {
   font-size: xx-large;
   font-weight: bolder;
+}
+
+#posicionamento div {
+  max-width: 45%;
+  justify-content: space-around;
+  border: lawngreen solid 2px;
+}
+
+#posicionamento img {
+  max-width: 95%;
 }
 #posicionamento h2 {
   font-size: x-large;
