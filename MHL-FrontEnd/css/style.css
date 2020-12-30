@@ -21,7 +21,7 @@ h1 {
 }
 #capa {
   background-size: cover;
-  background-image: url(../images/familia-feliz.jpg);
+  background-image: url(MHL-FrontEnd/images/familia-feliz.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   border: solid black 5px;
@@ -514,12 +514,13 @@ footer img {
   width: 50px;
 }
 
-/* #cultura img:hover {
+#cultura {
   background-size: cover;
   background-image: url(/MHL-FrontEnd/images/navegacao/fundos/fundoFocoNasPessoas.jpg);
   background-position: center center;
   background-repeat: no-repeat;
-} */
+  height: 700px;
+}
 
 #buscaPelaExelencia:hover {
   .iconesCultura {
