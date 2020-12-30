@@ -516,7 +516,7 @@ footer img {
 
 #cultura {
   background-size: cover;
-  background-image: url(/MHL-FrontEnd/images/navegacao/fundos/fundoFocoNasPessoas.jpg);
+  background-image: url(MHL-FrontEnd/images/navegacao/fundos/fundoFocoNasPessoas.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   height: 700px;
@@ -525,7 +525,7 @@ footer img {
 #buscaPelaExelencia:hover {
   .iconesCultura {
     background-size: cover;
-    background-image: url(/MHL-FrontEnd/images/navegacao/fundos/fundoBuscaDaExcelencia.jpg);
+    background-image: url(MHL-FrontEnd/images/navegacao/fundos/fundoBuscaDaExcelencia.jpg);
     background-position: center center;
     background-repeat: no-repeat;
   }
@@ -533,21 +533,21 @@ footer img {
 
 #cultura .iconesCultura .itensCultura #sustentabilidade:hover {
   background-size: cover;
-  background-image: url(/MHL-FrontEnd/images/navegacao/fundos/fundoSustentabilidade.png);
+  background-image: url(MHL-FrontEnd/images/navegacao/fundos/fundoSustentabilidade.png);
   background-position: center center;
   background-repeat: no-repeat;
 }
 
 .itensCultura #conversacao:hover {
   background-size: cover;
-  background-image: url(/MHL-FrontEnd/images/navegacao/fundos/fundoValorizamosParcerias.png);
+  background-image: url(MHL-FrontEnd/images/navegacao/fundos/fundoValorizamosParcerias.png);
   background-position: center center;
   background-repeat: no-repeat;
 }
 
 .itensCultura #trabalhoEmEquipe:hover {
   background-size: cover;
-  background-image: url(/MHL-FrontEnd/images/navegacao/fundos/fundoSomosColaborativos.png);
+  background-image: url(MHL-FrontEnd/images/navegacao/fundos/fundoSomosColaborativos.png);
   background-position: center center;
   background-repeat: no-repeat;
 }
