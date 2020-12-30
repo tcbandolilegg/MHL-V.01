@@ -281,6 +281,62 @@ nav a:hover {
   height: 700px;
 }
 
+#comoSurgiu {
+  align-items: center;
+  border: solid 5px rgb(33, 38, 83);
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  text-align: center;
+  height: 700px;
+}
+
+#comoSurgiu h1 {
+  font-size: xx-large;
+  font-weight: bolder;
+}
+
+#comoSurgiu aside {
+  font-size: large;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+#posicionamento {
+  /* align-items: center; */
+  border: solid 5px rgb(33, 38, 83);
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  text-align: center;
+  height: 700px;
+}
+
+#posicionamento h1 {
+  font-size: xx-large;
+  font-weight: bolder;
+}
+#posicionamento h2 {
+  font-size: x-large;
+  font-weight: boldr;
+}
+#posicionamento h3 {
+  font-size: initial;
+  font-weight: boldr;
+}
+
+#posicionamento aside {
+  font-size: large;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
 #quemSomosEsquerda {
   border: solid 2px yellowgreen;
   width: 45%;
@@ -360,7 +416,6 @@ nav a:hover {
   margin: 5% 5% 5% 5%;
   display: flex;
   flex-direction: row;
-  font-size: 18px;
   width: 50%;
   height: 80%;
   padding: 2% 2% 2% 2%;
@@ -385,7 +440,15 @@ nav a:hover {
   /* padding: 5%; */
   font-size: xx-large;
 }
-
+.buttonAzul {
+  background-color: #03145f;
+  color: white;
+  border-radius: 10px;
+  border: solid 1px white;
+  font-size: 100%;
+  width: 15%;
+  height: 8%;
+}
 #quemSomosEsquerda button {
   background-color: #03145f;
   color: white;
@@ -424,18 +487,20 @@ footer img {
   width: 50px;
 }
 
-#cultura img:hover {
+/* #cultura img:hover {
   background-size: cover;
   background-image: url(/MHL-FrontEnd/images/navegacao/fundos/fundoFocoNasPessoas.jpg);
   background-position: center center;
   background-repeat: no-repeat;
-}
+} */
 
-.iconesCultura .itensCultura #buscaPelaExelencia:hover {
-  background-size: cover;
-  background-image: url(/MHL-FrontEnd/images/navegacao/fundos/fundoBuscaDaExcelencia.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
+#buscaPelaExelencia:hover {
+  .iconesCultura {
+    background-size: cover;
+    background-image: url(/MHL-FrontEnd/images/navegacao/fundos/fundoBuscaDaExcelencia.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
 }
 
 #cultura .iconesCultura .itensCultura #sustentabilidade:hover {
