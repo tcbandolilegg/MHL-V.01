@@ -141,12 +141,13 @@ nav a:hover {
   background-color: #d1e5ff;
 }
 
-/* #trabalhoEmEquipe:hover { */
-.iconesCultura {
-  /* background-size: cover;
+.iconesCultura:hover { 
+/* .iconesCultura { */
+  background-size: cover;
   background-image: url(/../images/navegacao/fundos/fundoFocoNasPessoas.jpg);
   background-position: center center;
   background-repeat: no-repeat; */
+/* } */
 }
 
 .itensCultura {
